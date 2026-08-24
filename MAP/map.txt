@@ -1,0 +1,27 @@
+1. 数据准备
+1. 1 paired数据下载
+1.2 paired数据的negative match
+
+2. genos产生embedding/evo2产生embedding
+
+3. embedding拼接
+3.1 把positive的enhancer和TG的embedding拼接（可能加上一个维度：余弦相似性？）
+3.2 在高维做拼接矩阵分类
+3.3 构建分类器
+（上面是对genos模型和evo2模型的路线，此外，对positive和negative进行传统的分类器训练，传统/evo2/genos 做对比。反哺？）
+
+4. genos的1M上下文验证
+4.1 enhancer和TG分别embedding
+4.2 小上下文做embedding
+4.3 长上下文做embedding
+4.4 三者对比效果（预期上下文越长越好）
+
+
+
+
+（
+10. embedding距离
+10.1 positive和negative下 enhencer与TG的距离直接比较
+
+11 人和鼠，人分类器做鼠看效果
+）

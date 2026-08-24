@@ -1,0 +1,10 @@
+# 密钥 / 凭据（切勿提交）
+genos/api.txt
+*.env
+.env.*
+*.key
+*secret*
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
