@@ -1,0 +1,56 @@
+{
+  "group": "trans",
+  "n_train": 1766,
+  "n_val": 359,
+  "n_test": 401,
+  "SVM_best": {
+    "C": 1,
+    "gamma": "scale"
+  },
+  "SVM_valAUC": 0.5644,
+  "SVM_test": {
+    "AUC": 0.5151,
+    "PRAUC": 0.5227,
+    "Acc": 0.5187,
+    "F1": 0.5163,
+    "TP": 103.0,
+    "FP": 92.0,
+    "FN": 101.0,
+    "TN": 105.0,
+    "TrainAUC": 0.4739
+  },
+  "RF_best": {
+    "n_estimators": 400,
+    "max_depth": null,
+    "min_samples_leaf": 4
+  },
+  "RF_valAUC": 0.5303,
+  "RF_test": {
+    "AUC": 0.515,
+    "PRAUC": 0.5441,
+    "Acc": 0.5137,
+    "F1": 0.5038,
+    "TP": 99.0,
+    "FP": 90.0,
+    "FN": 105.0,
+    "TN": 107.0,
+    "TrainAUC": 0.9997
+  },
+  "XGB_best": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.1
+  },
+  "XGB_valAUC": 0.4915,
+  "XGB_test": {
+    "AUC": 0.4778,
+    "PRAUC": 0.5282,
+    "Acc": 0.5012,
+    "F1": 0.5,
+    "TP": 100.0,
+    "FP": 96.0,
+    "FN": 104.0,
+    "TN": 101.0,
+    "TrainAUC": 1.0
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "PCA_k10": {
+    "GB": {
+      "auc": 0.7268,
+      "prauc": 0.7755
+    },
+    "LR": {
+      "auc": 0.7178,
+      "prauc": 0.7272
+    }
+  },
+  "PCA_k20": {
+    "GB": {
+      "auc": 0.7118,
+      "prauc": 0.7622
+    },
+    "LR": {
+      "auc": 0.7162,
+      "prauc": 0.7197
+    }
+  },
+  "PCA_k50": {
+    "GB": {
+      "auc": 0.7252,
+      "prauc": 0.7719
+    },
+    "LR": {
+      "auc": 0.7091,
+      "prauc": 0.7121
+    }
+  },
+  "PCA_k100": {
+    "GB": {
+      "auc": 0.7312,
+      "prauc": 0.7654
+    },
+    "LR": {
+      "auc": 0.7027,
+      "prauc": 0.7087
+    }
+  },
+  "TruncatedSVD_k10": {
+    "GB": {
+      "auc": 0.7235,
+      "prauc": 0.7699
+    },
+    "LR": {
+      "auc": 0.719,
+      "prauc": 0.73
+    }
+  },
+  "TruncatedSVD_k20": {
+    "GB": {
+      "auc": 0.7347,
+      "prauc": 0.7787
+    },
+    "LR": {
+      "auc": 0.7158,
+      "prauc": 0.7193
+    }
+  },
+  "TruncatedSVD_k50": {
+    "GB": {
+      "auc": 0.7298,
+      "prauc": 0.7741
+    },
+    "LR": {
+      "auc": 0.7099,
+      "prauc": 0.7136
+    }
+  },
+  "TruncatedSVD_k100": {
+    "GB": {
+      "auc": 0.727,
+      "prauc": 0.7747
+    },
+    "LR": {
+      "auc": 0.704,
+      "prauc": 0.711
+    }
+  },
+  "KernelPCA_k10": {
+    "GB": {
+      "auc": 0.7409,
+      "prauc": 0.7839
+    },
+    "LR": {
+      "auc": 0.7175,
+      "prauc": 0.7268
+    }
+  },
+  "KernelPCA_k20": {
+    "GB": {
+      "auc": 0.7366,
+      "prauc": 0.7844
+    },
+    "LR": {
+      "auc": 0.7134,
+      "prauc": 0.7182
+    }
+  },
+  "KernelPCA_k50": {
+    "GB": {
+      "auc": 0.7355,
+      "prauc": 0.78
+    },
+    "LR": {
+      "auc": 0.7156,
+      "prauc": 0.7156
+    }
+  },
+  "KernelPCA_k100": {
+    "GB": {
+      "auc": 0.7538,
+      "prauc": 0.785
+    },
+    "LR": {
+      "auc": 0.7268,
+      "prauc": 0.7297
+    }
+  },
+  "FastICA_k10": {
+    "GB": {
+      "auc": 0.7238,
+      "prauc": 0.7686
+    },
+    "LR": {
+      "auc": 0.7178,
+      "prauc": 0.7272
+    }
+  },
+  "FastICA_k20": {
+    "GB": {
+      "auc": 0.7285,
+      "prauc": 0.7709
+    },
+    "LR": {
+      "auc": 0.7162,
+      "prauc": 0.7196
+    }
+  },
+  "FastICA_k50": {
+    "GB": {
+      "auc": 0.7087,
+      "prauc": 0.7549
+    },
+    "LR": {
+      "auc": 0.7092,
+      "prauc": 0.7124
+    }
+  },
+  "FastICA_k100": {
+    "GB": {
+      "auc": 0.6898,
+      "prauc": 0.7317
+    },
+    "LR": {
+      "auc": 0.7048,
+      "prauc": 0.7088
+    }
+  },
+  "FactorAnalysis_k10": {
+    "GB": {
+      "auc": 0.7309,
+      "prauc": 0.7717
+    },
+    "LR": {
+      "auc": 0.7175,
+      "prauc": 0.7249
+    }
+  },
+  "FactorAnalysis_k20": {
+    "GB": {
+      "auc": 0.7289,
+      "prauc": 0.7651
+    },
+    "LR": {
+      "auc": 0.7164,
+      "prauc": 0.7199
+    }
+  },
+  "FactorAnalysis_k50": {
+    "GB": {
+      "auc": 0.7183,
+      "prauc": 0.7632
+    },
+    "LR": {
+      "auc": 0.7095,
+      "prauc": 0.7127
+    }
+  },
+  "FactorAnalysis_k100": {
+    "GB": {
+      "auc": 0.721,
+      "prauc": 0.7583
+    },
+    "LR": {
+      "auc": 0.7075,
+      "prauc": 0.7075
+    }
+  },
+  "GaussianRP_k10": {
+    "GB": {
+      "auc": 0.7023,
+      "prauc": 0.7563
+    },
+    "LR": {
+      "auc": 0.7195,
+      "prauc": 0.7301
+    }
+  },
+  "GaussianRP_k20": {
+    "GB": {
+      "auc": 0.7271,
+      "prauc": 0.7695
+    },
+    "LR": {
+      "auc": 0.7178,
+      "prauc": 0.7216
+    }
+  },
+  "GaussianRP_k50": {
+    "GB": {
+      "auc": 0.736,
+      "prauc": 0.7783
+    },
+    "LR": {
+      "auc": 0.7174,
+      "prauc": 0.719
+    }
+  },
+  "GaussianRP_k100": {
+    "GB": {
+      "auc": 0.7428,
+      "prauc": 0.778
+    },
+    "LR": {
+      "auc": 0.7059,
+      "prauc": 0.7116
+    }
+  }
+}

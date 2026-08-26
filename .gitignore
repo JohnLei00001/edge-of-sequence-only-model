@@ -10,10 +10,15 @@ references/
 archive/
 EP_ATLAS/cis/
 EP_ATLAS/trans/
+EP_ATLAS/sequences/
+EP_ATLAS/embeddings/
+EP_ATLAS/features/
 *.fa
 *.fa.gz
 *.fai
 *.gzi
+*.npy
+*.npz
 
 # 系统 / 编辑器
 .DS_Store
